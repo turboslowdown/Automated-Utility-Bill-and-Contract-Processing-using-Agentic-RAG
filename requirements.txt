@@ -1,5 +1,10 @@
 # --- PDF & Image Processing ---
+# We install ocrmypdf WITHOUT the [cv] extra to prevent conflicts.
 ocrmypdf
+
+# We now take DIRECT control and install the headless version of OpenCV.
+opencv-python-headless
+
 agentic-doc
 unstructured[all-docs]
 pdf2image
