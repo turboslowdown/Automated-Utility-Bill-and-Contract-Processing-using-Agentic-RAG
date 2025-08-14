@@ -21,3 +21,4 @@ chromadb
 # --- Frontend & Data Display ---
 streamlit
 pandas
+pysqlite3-binary
